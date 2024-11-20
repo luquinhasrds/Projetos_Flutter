@@ -32,6 +32,6 @@ class HomeController{
       returnValue = value * (toCurrency?.bitcoin ?? 0.0);
     }
 
-    fromText.text = returnValue.toStringAsFixed(2);
+    fromText.text = returnValue.toStringAsFixed(5);
   }
 }
